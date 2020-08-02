@@ -23,26 +23,34 @@ function Home(props) {
             </div>
             <div className="column is-1"></div>
             <div className="column">
-              <div className="field">
-                <div className="control">
-                  <input
-                    className="input is-small"
-                    type="text"
-                    placeholder="Your mail/Number"
-                  />
+              <form name="messages" method="POST">
+                <input type="hidden" name="form-name" value="messages" />
+                <div className="field">
+                  <div className="control">
+                    <input
+                      className="input is-small"
+                      type="text"
+                      placeholder="Your mail/Number"
+                      name="contact"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="field">
-                <div className="control">
-                  <textarea
-                    className="textarea is-small"
-                    placeholder="Your message ..."
-                  ></textarea>
+                <div className="field">
+                  <div className="control">
+                    <textarea
+                      className="textarea is-small"
+                      placeholder="Your message ..."
+                      name="message"
+                    ></textarea>
+                  </div>
                 </div>
-              </div>
-              <button className="button is-dark is-small is-fullwidth">
-                Send&nbsp;<i className="fab fa-telegram-plane"></i>
-              </button>
+                <button
+                  className="button is-dark is-small is-fullwidth"
+                  type="submit"
+                >
+                  Send&nbsp;<i className="fab fa-telegram-plane"></i>
+                </button>
+              </form>
             </div>
             <div className="column is-1"></div>
           </div>

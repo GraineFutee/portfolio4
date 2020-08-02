@@ -8,7 +8,7 @@ function Work(props) {
   const [modal, setModal] = useState({ active: false, pictures: [] });
   const works = [
     {
-      image: "/img/CocktailsLife.png",
+      image: "/img/work/CocktailsLife/index.jpg",
       title: "CocktailsLife",
       desc: "A simple application build with :",
       items: [
@@ -19,15 +19,15 @@ function Work(props) {
       preview: {
         online: false,
         pictures: [
-          "/img/CocktailsLife/Main.png",
-          "/img/CocktailsLife/Negroni.png",
-          "/img/CocktailsLife/Recipes.png",
+          "/img/work/CocktailsLife/Main.jpg",
+          "/img/work/CocktailsLife/Negroni.jpg",
+          "/img/work/CocktailsLife/Recipes.jpg",
         ],
       },
       github: "https://github.com/GraineFutee/CL-website",
     },
     {
-      image: "/img/RecipeZ.png",
+      image: "/img/work/RecipeZ/index.jpg",
       title: "RecipeZ",
       desc: "A complete application build with :",
       items: [
@@ -39,17 +39,17 @@ function Work(props) {
       preview: {
         online: false,
         pictures: [
-          "/img/RecipeZ/Main.png",
-          "/img/RecipeZ/MyRecipes.png",
-          "/img/RecipeZ/Recipe1.png",
-          "/img/RecipeZ/Recipe2.png",
-          "/img/RecipeZ/SignIn.png",
+          "/img/work/RecipeZ/Main.jpg",
+          "/img/work/RecipeZ/MyRecipes.jpg",
+          "/img/work/RecipeZ/Recipe1.jpg",
+          "/img/work/RecipeZ/Recipe2.jpg",
+          "/img/work/RecipeZ/SignIn.jpg",
         ],
       },
       github: "https://github.com/GraineFutee/Recipez",
     },
     {
-      image: "/img/ArtOfLevani.png",
+      image: "/img/work/ArtOfLevani/index.jpg",
       title: "ArtOfLevani3",
       desc:
         "A professional website for the photographer Levani Levanidze build with :",

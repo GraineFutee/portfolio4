@@ -29,7 +29,7 @@ function About(props) {
                 transition={{
                   type: "spring",
                   delay: 0.5,
-                  stiffness: "10",
+                  stiffness: 10,
                 }}
                 className="box content"
               >
@@ -46,6 +46,17 @@ function About(props) {
                   ))}
                 </p>
               </motion.div>
+              <motion.a
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", delay: 1, stiffness: 10 }}
+                className="button is-dark is-fullwidth"
+                href="/files/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get my resume&nbsp;<i className="fas fa-file-download"></i>
+              </motion.a>
             </div>
             <div className="column is-1"></div>
           </div>
