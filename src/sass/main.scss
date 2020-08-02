@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Import a Google Font
+// @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+//   @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+// Set your brand colors
+$green: #7bed9f;
+$yellow: #eccc68;
+$red: #ff7f50;
+$blue: #70a1ff;
+$grey: #57606f;
+
+// // Update Bulma's global variables
+$dark: $grey;
+$success: $green;
+$success-invert: #ffffff;
+$warning: $yellow;
+$warning-invert: #ffffff;
+$danger: $red;
+$info: $blue;
+// $family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+
+// // Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// $family-sans-serif: "Cinzel";
+// $body-background-color: #ecf0f1;
+// $navbar-background-color: transparent;
+// $navbar-dropdown-background-color: transparent;
+// $navbar-item-hover-background-color: transparent;
+
+// $navbar-tab-hover-border-bottom-color: #ecf0f1;
+// $navbar-tab-active-border-bottom-color: #ecf0f1;
+// $navbar-item-hover-color: #ecf0f1;
+// $navbar-tab-active-color: #ffffff;
+
+// $modal-content-width: calc(80vw - 80px);
+
+// $navbar-item-color: #ffffff;
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/bulma.sass";
