@@ -8,7 +8,7 @@ function SkilCard({ skill, index }) {
       animate={{ y: 0 }}
       transition={{
         type: "spring",
-        stiffness: 50,
+        stiffness: 75,
         delay: 0.5 + index * 0.25,
       }}
     >
@@ -23,16 +23,25 @@ function SkilCard({ skill, index }) {
         }}
         className="box content"
       >
-        <p className="title is-3 has-text-dark">{skill.title}</p>
+        <p className="title is-3 has-text-dark">
+          {skill.title === "Front" ? (
+            <i className="fas fa-window-restore"></i>
+          ) : skill.title === "Back" ? (
+            <i className="fas fa-server"></i>
+          ) : (
+            <i className="fas fa-tasks"></i>
+          )}
+          {skill.title}
+        </p>
         <motion.progress
           initial={{ width: 0 }}
           animate={{ width: "" }}
           transition={{
             type: "spring",
-            stiffness: 50,
+            stiffness: 75,
             delay: 1 + index * 0.25,
           }}
-          className="progress is-dark"
+          className="progress is-primary"
           value={skill.value}
           max="100"
         />

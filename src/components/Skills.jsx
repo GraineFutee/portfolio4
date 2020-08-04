@@ -15,7 +15,11 @@ function Skills(props) {
       initial={{ x: "100vw" }}
       animate={{ x: 0 }}
       transition={{ type: "spring", stiffness: 50 }}
-      className="hero is-fullheight is-info is-bold"
+      className="hero is-fullheight is-dark"
+      style={{
+        background:
+          "linear-gradient(135deg, rgba(75,207,250,1) 0%, rgba(87,95,207,1) 100%)",
+      }}
     >
       <div className="hero-body">
         <div className="container">

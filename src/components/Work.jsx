@@ -63,8 +63,12 @@ function Work(props) {
       <motion.section
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 50 }}
-        className="hero is-fullheight is-warning is-bold"
+        transition={{ type: "spring", stiffness: 75 }}
+        className="hero is-fullheight is-dark"
+        style={{
+          background:
+            "linear-gradient(135deg, rgba(255,221,89,1) 0%, rgba(255,192,72,1) 100%)",
+        }}
       >
         <div className="hero-body">
           <div className="container">

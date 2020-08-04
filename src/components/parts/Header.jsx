@@ -5,15 +5,11 @@ function Header(props) {
   return (
     <div className="buttons">
       <motion.button
-        initial={{
-          textShadow: "0px 0px 0px white",
-          boxShadow: "0px 0px 0px white",
-        }}
+        initial={{}}
         whileHover={{
-          textShadow: "0px 0px 4px white",
-          boxShadow: "0px 0px 4px white",
+          backgroundColor: "rgba(30, 39, 46,0.7)",
         }}
-        className="is-small button is-danger is-rounded"
+        className="is-small button is-success is-rounded"
         onClick={() => props.setPage("Home")}
         disabled={props.page === "Home"}
       >
@@ -21,15 +17,11 @@ function Header(props) {
       </motion.button>
 
       <motion.button
-        initial={{
-          textShadow: "0px 0px 0px white",
-          boxShadow: "0px 0px 0px white",
-        }}
+        initial={{}}
         whileHover={{
-          textShadow: "0px 0px 4px white",
-          boxShadow: "0px 0px 4px white",
+          backgroundColor: "rgba(30, 39, 46,0.7)",
         }}
-        className="is-small button is-success is-rounded"
+        className="is-small button is-danger is-rounded"
         onClick={() => props.setPage("About")}
         disabled={props.page === "About"}
       >
@@ -37,13 +29,9 @@ function Header(props) {
       </motion.button>
 
       <motion.button
-        initial={{
-          textShadow: "0px 0px 0px white",
-          boxShadow: "0px 0px 0px white",
-        }}
+        initial={{}}
         whileHover={{
-          textShadow: "0px 0px 4px white",
-          boxShadow: "0px 0px 4px white",
+          backgroundColor: "rgba(30, 39, 46,0.7)",
         }}
         className="is-small button is-info is-rounded"
         onClick={() => props.setPage("Skills")}
@@ -53,13 +41,9 @@ function Header(props) {
       </motion.button>
 
       <motion.button
-        initial={{
-          textShadow: "0px 0px 0px white",
-          boxShadow: "0px 0px 0px white",
-        }}
+        initial={{}}
         whileHover={{
-          textShadow: "0px 0px 4px white",
-          boxShadow: "0px 0px 4px white",
+          backgroundColor: "rgba(30, 39, 46,0.7)",
         }}
         className="is-small button is-warning is-rounded"
         onClick={() => props.setPage("Work")}

@@ -6,13 +6,13 @@ function WorkCard({ work, index, setModal }) {
     <motion.div
       initial={{ x: "100vw" }}
       animate={{ x: 0 }}
-      transition={{ type: "spring", stiffness: 50, delay: 0.5 + index * 0.25 }}
+      transition={{ type: "spring", stiffness: 75, delay: 0.5 + index * 0.25 }}
     >
       <motion.div
         initial={{ scale: 1, zIndex: 1 }}
         whileHover={{ scale: 1.2, zIndex: 3 }}
         whileTap={{ scale: 1.2, zIndex: 3 }}
-        transition={{ type: "spring", stiffness: 50 }}
+        transition={{ type: "spring", stiffness: 75 }}
         className="box "
         style={{
           backgroundImage: `url('${work.image}')`,
@@ -26,7 +26,7 @@ function WorkCard({ work, index, setModal }) {
           whileHover={{ opacity: 1 }}
           whileTap={{ opacity: 1 }}
           style={{
-            backgroundColor: "rgba(87, 96, 111,0.7)",
+            backgroundColor: "rgba(30, 39, 46,0.7)",
             boxShadow: "0px 0px 10px #57606f",
             padding: "10px",
           }}

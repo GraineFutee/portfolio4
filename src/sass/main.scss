@@ -1,15 +1,16 @@
 @charset "utf-8";
 
 // Import a Google Font
-// @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 //   @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
 // Set your brand colors
-$green: #7bed9f;
-$yellow: #eccc68;
-$red: #ff7f50;
-$blue: #70a1ff;
-$grey: #57606f;
+$green: #0be881;
+$yellow: #ffdd59;
+$red: #ef5777;
+$blue: #4bcffa;
+$grey: #1e272e;
+$indigo: #575fcf;
 
 // // Update Bulma's global variables
 $dark: $grey;
@@ -19,7 +20,9 @@ $warning: $yellow;
 $warning-invert: #ffffff;
 $danger: $red;
 $info: $blue;
-// $family-sans-serif: "Nunito", sans-serif;
+$info-invert: #ffffff;
+$primary: $indigo;
+$family-sans-serif: "Mulish";
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
 // $primary: $purple;
@@ -28,7 +31,7 @@ $info: $blue;
 // $fullhd-enabled: false;
 
 // // Update some of Bulma's component variables
-// $body-background-color: $beige-lighter;
+$body-background-color: $grey;
 // $control-border-width: 2px;
 // $input-border-color: transparent;
 // $input-shadow: none;
