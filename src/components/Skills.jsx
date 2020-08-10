@@ -6,7 +6,11 @@ import SkillCard from "./parts/SkillCard";
 
 function Skills(props) {
   const skills = [
-    { title: "Front", value: 80, items: ["React", "Framer Motion", "Bulma"] },
+    {
+      title: "Front",
+      value: 80,
+      items: ["React", "Framer Motion", "Bulma (Sass)"],
+    },
     { title: "Back", value: 70, items: ["Express", "Joi", "PostgreSQL"] },
     { title: "Project", value: 50, items: ["AWS", "Netlify", "Heroku"] },
   ];
@@ -14,7 +18,7 @@ function Skills(props) {
     <motion.section
       initial={{ x: "100vw" }}
       animate={{ x: 0 }}
-      transition={{ type: "spring", stiffness: 50 }}
+      transition={{ type: "spring", stiffness: 75 }}
       className="hero is-fullheight is-dark"
       style={{
         background:
